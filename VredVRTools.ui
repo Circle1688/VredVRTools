@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>vrViewpointPluginGUI</class>
+ <widget class="QWidget" name="vrViewpointPluginGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>XPengVRTools</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="_label">
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="_versionlabel">
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_merge">
+     <property name="text">
+      <string>&#x5408;&#x5E76;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_optimization">
+     <property name="text">
+      <string>&#x4F18;&#x5316;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_materialBrush">
+     <property name="text">
+      <string>&#x6750;&#x8D28;&#x5237;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_datamaterial">
+     <property name="text">
+      <string>&#x5339;&#x914D;&#x6750;&#x8D28;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_export2UE">
+     <property name="text">
+      <string>&#x5BFC;&#x51FA;&#x5230;UE</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="_vrTools">
+     <property name="text">
+      <string>VR&#x5DE5;&#x5177;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QProgressBar" name="_pbar"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
